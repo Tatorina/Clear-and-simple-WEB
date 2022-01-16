@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700&display=swap" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Increase your productivity</title>
 </head>
@@ -18,25 +19,34 @@
         <a href="" class="header__logo">
           <img src="img/header/logo.svg" alt="logo">
         </a>
-        <nav class="header__menu menu">
-          <ul class="menu__list _list">
-            <li class="menu__item">
-              <a href="" class="menu__link link_first">Home</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">Blog</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">Features</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">Pricing</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">Documentation</a>
-            </li>
-          </ul>
-        </nav>
+        
+          <nav class="header__menu menu" >
+            <ul class="menu__list _list" id="myTopnav">
+              <li class="menu__item">
+                <a href="" class="menu__link active">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Blog</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Features</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Pricing</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Documentation</a>
+              </li>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </ul>
+
+
+ 
+          </nav>
+       
+        
       </div>
       <div class="header__container-contacts">
         <div class="header__contacts contacts">
@@ -85,6 +95,7 @@
           </div>
         </div>
         <div class="container_image">
+          
           <div class="sec_ellips1"></div>
           <div class="sec_ellips2"></div>
           <div class="sec_ellips3"></div>
@@ -170,5 +181,6 @@
       </div>
     </main>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
